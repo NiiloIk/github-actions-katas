@@ -23,7 +23,7 @@ jobs:
     needs: [Build]
     steps:
       - name: Download code
-        uses: actions/download-aftifact@v4
+        uses: actions/download-artifact@v4
         with:
           name: code
           path: .
